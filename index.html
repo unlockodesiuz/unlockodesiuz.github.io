@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Peer Talk</title>
+<style>body{font-family:system-ui,sans-serif;max-width:640px;margin:48px auto;padding:0 16px;line-height:1.5;color:#222}a{color:#0a58ca}</style>
+</head><body>
+<h1>Peer Talk</h1>
+<p>Short, original explainer videos about money, motivation and surprising facts, posted daily on
+<a href="https://www.youtube.com/channel/UCjF9VIVsOOyC_W0ILbmSH6w">YouTube</a>, TikTok and Instagram.</p>
+<p>Peer Talk Content Engine is the private tool we use to publish our own videos to our own accounts.
+It is not offered to the public.</p>
+<p><a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms of service</a></p>
+<p id="login-result"></p>
+<script>
+// Login Kit redirect lands here with ?code=...; show it so it can be copied into the setup script.
+var q = new URLSearchParams(location.search);
+if (q.get("code")) {
+  document.getElementById("login-result").innerHTML =
+    "<strong>Login complete.</strong> Copy the full address of this page and paste it into the setup script.";
+}
+</script>
+</body></html>
